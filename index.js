@@ -37,7 +37,7 @@ onValue(referenceInDB, function(snapshot) {
     } 
 })
 
-deleteAllButtonEl.addEventListener("dblclick", function() {
+deleteAllButtonEl.addEventListener("click", function() {
     // Remove the last child element (bottom-most) from ulEl
     ulEl.removeChild(ulEl.lastElementChild);
 

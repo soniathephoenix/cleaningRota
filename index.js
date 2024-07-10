@@ -42,7 +42,7 @@ deleteAllButtonEl.addEventListener("click", function() {
     ulEl.removeChild(ulEl.lastElementChild);
 
     // Optionally, if you also want to remove it from the database or other reference
-    // remove(referenceInDB);
+    remove(referenceInDB);
 });
 
 

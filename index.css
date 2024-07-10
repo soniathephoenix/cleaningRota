@@ -2,14 +2,13 @@
     height: 100%;
     width: 100%;
   } */
-  
 
-body {
+  body {
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 500px;
+    max-width: 375px; /* Adjusted to fit iPhone screen width */
     margin: 0 auto;
     row-gap: 8px;
     font-family: "Inter", sans-serif;

@@ -39,7 +39,7 @@ onValue(referenceInDB, function(snapshot) {
 
 deleteAllButtonEl.addEventListener("click", function() {
     // Remove the last child element (bottom-most) from ulEl
-    ulEl.removeChild(ulEl.lastElementChild);
+    ulEl.removeChild(ulEl.firstElementChild);
 
     // Optionally, if you also want to remove it from the database or other reference
     remove(referenceInDB);

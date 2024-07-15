@@ -35,6 +35,15 @@ label {
     text-align: center;
 }
 
+#fm-input {
+    background-color: white;
+    width: 300px;
+}
+
+#fm-input::-webkit-input-placeholder {
+    color: #555555;
+}
+
 .input-buttons {
     display: flex;
     column-gap: 10px;
